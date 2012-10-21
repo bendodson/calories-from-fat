@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B2DD7A116341906007B2D34 /* gradient-bg~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DD79F16341906007B2D34 /* gradient-bg~iphone.png */; };
+		2B2DD7A216341906007B2D34 /* gradient-bg@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DD7A016341906007B2D34 /* gradient-bg@2x~iphone.png */; };
+		2B2DD7A516341C3D007B2D34 /* scales.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DD7A316341C3D007B2D34 /* scales.png */; };
+		2B2DD7A616341C3D007B2D34 /* scales@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DD7A416341C3D007B2D34 /* scales@2x.png */; };
 		2B470CBC1633F68800386061 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B470CBB1633F68800386061 /* UIKit.framework */; };
 		2B470CBE1633F68800386061 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B470CBD1633F68800386061 /* Foundation.framework */; };
 		2B470CC01633F68800386061 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B470CBF1633F68800386061 /* CoreGraphics.framework */; };
@@ -20,9 +24,14 @@
 		2B470CE21634009F00386061 /* FCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B470CE11634009F00386061 /* FCViewController.m */; };
 		2B470CE5163400D700386061 /* FCViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B470CE4163400D700386061 /* FCViewController~iphone.xib */; };
 		2B470CE7163400F500386061 /* FCViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B470CE6163400F500386061 /* FCViewController~ipad.xib */; };
+		2B470CE9163403D200386061 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B470CE8163403D200386061 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B2DD79F16341906007B2D34 /* gradient-bg~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradient-bg~iphone.png"; sourceTree = "<group>"; };
+		2B2DD7A016341906007B2D34 /* gradient-bg@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradient-bg@2x~iphone.png"; sourceTree = "<group>"; };
+		2B2DD7A316341C3D007B2D34 /* scales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scales.png; sourceTree = "<group>"; };
+		2B2DD7A416341C3D007B2D34 /* scales@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scales@2x.png"; sourceTree = "<group>"; };
 		2B470CB71633F68800386061 /* FatCalories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FatCalories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B470CBB1633F68800386061 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2B470CBD1633F68800386061 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,6 +51,7 @@
 		2B470CE11634009F00386061 /* FCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCViewController.m; sourceTree = "<group>"; };
 		2B470CE4163400D700386061 /* FCViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "FCViewController~iphone.xib"; sourceTree = "<group>"; };
 		2B470CE6163400F500386061 /* FCViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "FCViewController~ipad.xib"; sourceTree = "<group>"; };
+		2B470CE8163403D200386061 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B470CE9163403D200386061 /* iAd.framework in Frameworks */,
 				2B470CBC1633F68800386061 /* UIKit.framework in Frameworks */,
 				2B470CBE1633F68800386061 /* Foundation.framework in Frameworks */,
 				2B470CC01633F68800386061 /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +69,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B2DD79D163418FD007B2D34 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2B2DD79F16341906007B2D34 /* gradient-bg~iphone.png */,
+				2B2DD7A016341906007B2D34 /* gradient-bg@2x~iphone.png */,
+				2B2DD7A316341C3D007B2D34 /* scales.png */,
+				2B2DD7A416341C3D007B2D34 /* scales@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		2B470CAC1633F68800386061 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +100,7 @@
 		2B470CBA1633F68800386061 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2B470CE8163403D200386061 /* iAd.framework */,
 				2B470CBB1633F68800386061 /* UIKit.framework */,
 				2B470CBD1633F68800386061 /* Foundation.framework */,
 				2B470CBF1633F68800386061 /* CoreGraphics.framework */,
@@ -94,6 +117,7 @@
 				2B470CDD1633F9C100386061 /* FCCalorieCalculator.m */,
 				2B470CE01634009F00386061 /* FCViewController.h */,
 				2B470CE11634009F00386061 /* FCViewController.m */,
+				2B2DD79D163418FD007B2D34 /* Images */,
 				2B470CE3163400C600386061 /* Views */,
 				2B470CC21633F68800386061 /* Supporting Files */,
 			);
@@ -181,6 +205,10 @@
 				2B470CD21633F68800386061 /* Default-568h@2x.png in Resources */,
 				2B470CE5163400D700386061 /* FCViewController~iphone.xib in Resources */,
 				2B470CE7163400F500386061 /* FCViewController~ipad.xib in Resources */,
+				2B2DD7A116341906007B2D34 /* gradient-bg~iphone.png in Resources */,
+				2B2DD7A216341906007B2D34 /* gradient-bg@2x~iphone.png in Resources */,
+				2B2DD7A516341C3D007B2D34 /* scales.png in Resources */,
+				2B2DD7A616341C3D007B2D34 /* scales@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

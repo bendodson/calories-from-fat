@@ -7,7 +7,32 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "iAd/ADBannerView.h"
 
-@interface FCViewController : UIViewController
+enum kFCAlertView {
+    kFCAlertViewCalories100g = 100,
+    kFCAlertViewCaloriesPortion
+};
+
+@interface FCViewController : UIViewController<ADBannerViewDelegate, UITextFieldDelegate, UIAlertViewDelegate> {
+    
+    float portionWeight;
+    float fatWeight;
+    int portionCalories;
+    int fatCalories;
+    
+    int caloriesPer100g;
+    
+}
+
+@property (weak, nonatomic) IBOutlet ADBannerView *bannerView;
+
+@property (weak, nonatomic) IBOutlet UITextField *portionWeightTextField;
+@property (weak, nonatomic) IBOutlet UITextField *fatWeightTextField;
+@property (weak, nonatomic) IBOutlet UITextField *portionCaloriesTextField;
+@property (weak, nonatomic) IBOutlet UILabel *fatCaloriesLabel;
+
+- (IBAction)beginCalculatingPortionWeight:(id)sender;
+- (void)reset;
 
 @end
