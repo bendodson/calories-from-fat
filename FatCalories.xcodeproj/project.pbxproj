@@ -17,6 +17,9 @@
 		2B470CD01633F68800386061 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B470CCF1633F68800386061 /* Default@2x.png */; };
 		2B470CD21633F68800386061 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B470CD11633F68800386061 /* Default-568h@2x.png */; };
 		2B470CDE1633F9C200386061 /* FCCalorieCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B470CDD1633F9C100386061 /* FCCalorieCalculator.m */; };
+		2B470CE21634009F00386061 /* FCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B470CE11634009F00386061 /* FCViewController.m */; };
+		2B470CE5163400D700386061 /* FCViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B470CE4163400D700386061 /* FCViewController~iphone.xib */; };
+		2B470CE7163400F500386061 /* FCViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B470CE6163400F500386061 /* FCViewController~ipad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,10 @@
 		2B470CD11633F68800386061 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2B470CDC1633F9C100386061 /* FCCalorieCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCCalorieCalculator.h; sourceTree = "<group>"; };
 		2B470CDD1633F9C100386061 /* FCCalorieCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCCalorieCalculator.m; sourceTree = "<group>"; };
+		2B470CE01634009F00386061 /* FCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCViewController.h; sourceTree = "<group>"; };
+		2B470CE11634009F00386061 /* FCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCViewController.m; sourceTree = "<group>"; };
+		2B470CE4163400D700386061 /* FCViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "FCViewController~iphone.xib"; sourceTree = "<group>"; };
+		2B470CE6163400F500386061 /* FCViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "FCViewController~ipad.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +92,9 @@
 				2B470CCB1633F68800386061 /* FCAppDelegate.m */,
 				2B470CDC1633F9C100386061 /* FCCalorieCalculator.h */,
 				2B470CDD1633F9C100386061 /* FCCalorieCalculator.m */,
+				2B470CE01634009F00386061 /* FCViewController.h */,
+				2B470CE11634009F00386061 /* FCViewController.m */,
+				2B470CE3163400C600386061 /* Views */,
 				2B470CC21633F68800386061 /* Supporting Files */,
 			);
 			path = FatCalories;
@@ -102,6 +112,15 @@
 				2B470CD11633F68800386061 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B470CE3163400C600386061 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B470CE4163400D700386061 /* FCViewController~iphone.xib */,
+				2B470CE6163400F500386061 /* FCViewController~ipad.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +179,8 @@
 				2B470CCE1633F68800386061 /* Default.png in Resources */,
 				2B470CD01633F68800386061 /* Default@2x.png in Resources */,
 				2B470CD21633F68800386061 /* Default-568h@2x.png in Resources */,
+				2B470CE5163400D700386061 /* FCViewController~iphone.xib in Resources */,
+				2B470CE7163400F500386061 /* FCViewController~ipad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +194,7 @@
 				2B470CC81633F68800386061 /* main.m in Sources */,
 				2B470CCC1633F68800386061 /* FCAppDelegate.m in Sources */,
 				2B470CDE1633F9C200386061 /* FCCalorieCalculator.m in Sources */,
+				2B470CE21634009F00386061 /* FCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
