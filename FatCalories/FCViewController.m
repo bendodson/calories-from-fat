@@ -32,6 +32,11 @@
     
     [_portionWeightTextField becomeFirstResponder];
     
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+        _portionWeightTextField.keyboardType = UIKeyboardTypeNumberPad;
+        _fatWeightTextField.keyboardType = UIKeyboardTypeNumberPad;
+    }
+    
     _bannerView.hidden = YES;
     if ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone && [[UIScreen mainScreen] bounds].size.height > 480) || UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
         _bannerView.delegate = self;
