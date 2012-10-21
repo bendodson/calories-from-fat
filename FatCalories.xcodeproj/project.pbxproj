@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B470CBC1633F68800386061 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B470CBB1633F68800386061 /* UIKit.framework */; };
+		2B470CBE1633F68800386061 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B470CBD1633F68800386061 /* Foundation.framework */; };
+		2B470CC01633F68800386061 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B470CBF1633F68800386061 /* CoreGraphics.framework */; };
+		2B470CC61633F68800386061 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B470CC41633F68800386061 /* InfoPlist.strings */; };
+		2B470CC81633F68800386061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B470CC71633F68800386061 /* main.m */; };
+		2B470CCC1633F68800386061 /* FCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B470CCB1633F68800386061 /* FCAppDelegate.m */; };
+		2B470CCE1633F68800386061 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B470CCD1633F68800386061 /* Default.png */; };
+		2B470CD01633F68800386061 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B470CCF1633F68800386061 /* Default@2x.png */; };
+		2B470CD21633F68800386061 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B470CD11633F68800386061 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B470CB71633F68800386061 /* FatCalories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FatCalories.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B470CBB1633F68800386061 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2B470CBD1633F68800386061 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B470CBF1633F68800386061 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B470CC31633F68800386061 /* FatCalories-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FatCalories-Info.plist"; sourceTree = "<group>"; };
+		2B470CC51633F68800386061 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B470CC71633F68800386061 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B470CC91633F68800386061 /* FatCalories-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FatCalories-Prefix.pch"; sourceTree = "<group>"; };
+		2B470CCA1633F68800386061 /* FCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCAppDelegate.h; sourceTree = "<group>"; };
+		2B470CCB1633F68800386061 /* FCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCAppDelegate.m; sourceTree = "<group>"; };
+		2B470CCD1633F68800386061 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2B470CCF1633F68800386061 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2B470CD11633F68800386061 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B470CB41633F68800386061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B470CBC1633F68800386061 /* UIKit.framework in Frameworks */,
+				2B470CBE1633F68800386061 /* Foundation.framework in Frameworks */,
+				2B470CC01633F68800386061 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B470CAC1633F68800386061 = {
+			isa = PBXGroup;
+			children = (
+				2B470CC11633F68800386061 /* FatCalories */,
+				2B470CBA1633F68800386061 /* Frameworks */,
+				2B470CB81633F68800386061 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B470CB81633F68800386061 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B470CB71633F68800386061 /* FatCalories.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B470CBA1633F68800386061 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B470CBB1633F68800386061 /* UIKit.framework */,
+				2B470CBD1633F68800386061 /* Foundation.framework */,
+				2B470CBF1633F68800386061 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B470CC11633F68800386061 /* FatCalories */ = {
+			isa = PBXGroup;
+			children = (
+				2B470CCA1633F68800386061 /* FCAppDelegate.h */,
+				2B470CCB1633F68800386061 /* FCAppDelegate.m */,
+				2B470CC21633F68800386061 /* Supporting Files */,
+			);
+			path = FatCalories;
+			sourceTree = "<group>";
+		};
+		2B470CC21633F68800386061 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B470CC31633F68800386061 /* FatCalories-Info.plist */,
+				2B470CC41633F68800386061 /* InfoPlist.strings */,
+				2B470CC71633F68800386061 /* main.m */,
+				2B470CC91633F68800386061 /* FatCalories-Prefix.pch */,
+				2B470CCD1633F68800386061 /* Default.png */,
+				2B470CCF1633F68800386061 /* Default@2x.png */,
+				2B470CD11633F68800386061 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B470CB61633F68800386061 /* FatCalories */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B470CD51633F68800386061 /* Build configuration list for PBXNativeTarget "FatCalories" */;
+			buildPhases = (
+				2B470CB31633F68800386061 /* Sources */,
+				2B470CB41633F68800386061 /* Frameworks */,
+				2B470CB51633F68800386061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FatCalories;
+			productName = FatCalories;
+			productReference = 2B470CB71633F68800386061 /* FatCalories.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B470CAE1633F68800386061 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FC;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ben Dodson Apps Ltd";
+			};
+			buildConfigurationList = 2B470CB11633F68800386061 /* Build configuration list for PBXProject "FatCalories" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B470CAC1633F68800386061;
+			productRefGroup = 2B470CB81633F68800386061 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B470CB61633F68800386061 /* FatCalories */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B470CB51633F68800386061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B470CC61633F68800386061 /* InfoPlist.strings in Resources */,
+				2B470CCE1633F68800386061 /* Default.png in Resources */,
+				2B470CD01633F68800386061 /* Default@2x.png in Resources */,
+				2B470CD21633F68800386061 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B470CB31633F68800386061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B470CC81633F68800386061 /* main.m in Sources */,
+				2B470CCC1633F68800386061 /* FCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B470CC41633F68800386061 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B470CC51633F68800386061 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B470CD31633F68800386061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B470CD41633F68800386061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B470CD61633F68800386061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FatCalories/FatCalories-Prefix.pch";
+				INFOPLIST_FILE = "FatCalories/FatCalories-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B470CD71633F68800386061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FatCalories/FatCalories-Prefix.pch";
+				INFOPLIST_FILE = "FatCalories/FatCalories-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B470CB11633F68800386061 /* Build configuration list for PBXProject "FatCalories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B470CD31633F68800386061 /* Debug */,
+				2B470CD41633F68800386061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B470CD51633F68800386061 /* Build configuration list for PBXNativeTarget "FatCalories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B470CD61633F68800386061 /* Debug */,
+				2B470CD71633F68800386061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B470CAE1633F68800386061 /* Project object */;
+}
