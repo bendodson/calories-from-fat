@@ -1,0 +1,9 @@
+A full iOS Project demonstrating how to build a Universal app in iOS 6 with ARC. Contains iAds.
+
+---
+
+If you're trying to diet, you may need to work out how many calories of fat there are in a particular food. In the UK, the standards for nutritional information mean that you are usually shown a total weight for the food, calorie counts for 100g and a portion, and the amount of fat in grams for 100g and each portion.
+
+"Fat Calories" helps you work out how many actual calories there are in a portion by letting you quickly enter the portion weight, amount of fat in that weight, and the overall number of calories. It instantly tells you how many calories of fat are in that portion.
+
+Many packages show the overall weight of a food along with a calorie breakdown for a portion and 100g. However, they often fail to specify exactly how much a portion weights. Tap the scales in "Fat Calories" and you can enter both the calories found in 100g and calories found in a portion; the app will use this to work out exactly how big that portion is allowing you to then work out how many calories of fat are in that portion.
